@@ -1,0 +1,148 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "name": "Debug VersionDump",
+            "program": "${workspaceFolder:Swift-Atem}/.build/debug/VersionDump",
+            "args": [],
+            "cwd": "${workspaceFolder:Swift-Atem}",
+            "preLaunchTask": "swift: Build Debug VersionDump"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "name": "Release VersionDump",
+            "program": "${workspaceFolder:Swift-Atem}/.build/release/VersionDump",
+            "args": [],
+            "cwd": "${workspaceFolder:Swift-Atem}",
+            "preLaunchTask": "swift: Build Release VersionDump"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "name": "Debug Simulator",
+            "program": "${workspaceFolder:Swift-Atem}/.build/debug/Simulator",
+            "args": [],
+            "cwd": "${workspaceFolder:Swift-Atem}",
+            "preLaunchTask": "swift: Build Debug Simulator"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "name": "Release Simulator",
+            "program": "${workspaceFolder:Swift-Atem}/.build/release/Simulator",
+            "args": [],
+            "cwd": "${workspaceFolder:Swift-Atem}",
+            "preLaunchTask": "swift: Build Release Simulator"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "name": "Debug TitleGenerator",
+            "program": "${workspaceFolder:Swift-Atem}/.build/debug/TitleGenerator",
+            "args": [],
+            "cwd": "${workspaceFolder:Swift-Atem}",
+            "preLaunchTask": "swift: Build Debug TitleGenerator"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "name": "Release TitleGenerator",
+            "program": "${workspaceFolder:Swift-Atem}/.build/release/TitleGenerator",
+            "args": [],
+            "cwd": "${workspaceFolder:Swift-Atem}",
+            "preLaunchTask": "swift: Build Release TitleGenerator"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "name": "Debug PreviewSwitcher",
+            "program": "${workspaceFolder:Swift-Atem}/.build/debug/PreviewSwitcher",
+            "args": [],
+            "cwd": "${workspaceFolder:Swift-Atem}",
+            "preLaunchTask": "swift: Build Debug PreviewSwitcher"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "name": "Release PreviewSwitcher",
+            "program": "${workspaceFolder:Swift-Atem}/.build/release/PreviewSwitcher",
+            "args": [],
+            "cwd": "${workspaceFolder:Swift-Atem}",
+            "preLaunchTask": "swift: Build Release PreviewSwitcher"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "name": "Debug SourceLabeler",
+            "program": "${workspaceFolder:Swift-Atem}/.build/debug/SourceLabeler",
+            "args": [],
+            "cwd": "${workspaceFolder:Swift-Atem}",
+            "preLaunchTask": "swift: Build Debug SourceLabeler"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "name": "Release SourceLabeler",
+            "program": "${workspaceFolder:Swift-Atem}/.build/release/SourceLabeler",
+            "args": [],
+            "cwd": "${workspaceFolder:Swift-Atem}",
+            "preLaunchTask": "swift: Build Release SourceLabeler"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "name": "Debug MessageDecoder",
+            "program": "${workspaceFolder:Swift-Atem}/.build/debug/MessageDecoder",
+            "args": [],
+            "cwd": "${workspaceFolder:Swift-Atem}",
+            "preLaunchTask": "swift: Build Debug MessageDecoder"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "name": "Release MessageDecoder",
+            "program": "${workspaceFolder:Swift-Atem}/.build/release/MessageDecoder",
+            "args": [],
+            "cwd": "${workspaceFolder:Swift-Atem}",
+            "preLaunchTask": "swift: Build Release MessageDecoder"
+        }
+    ]
+}
